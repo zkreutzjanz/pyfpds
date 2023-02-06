@@ -75,6 +75,19 @@ field_map = {
     'vendor_state_name': 'VENDOR_ADDRESS_STATE_NAME',
     'vendor_zip': 'VENDOR_ADDRESS_ZIP_CODE',
 
+    'entity_city': 'VENDOR_ADDRESS_CITY',
+    'entity_congressional_district_code': 'VENDOR_CONGRESS_DISTRICT_CODE',
+    'entity_country_code': 'VENDOR_ADDRESS_COUNTRY_CODE',
+    'entity_country_name': 'VENDOR_ADDRESS_COUNTRY_NAME',
+    'unique_entity_id': 'VENDOR_UEI',
+    'ultimate_parent_unique_entity_id': 'ULTIMATE_UEI',
+    'entity_doing_business_as_name': 'VENDOR_DOING_BUSINESS_AS_NAME',
+    'legal_business_name': 'UEI_NAME',
+    'ultimate_parent_legal_business_name': 'ULTIMATE_UEI_NAME',
+    'entity_state_code': 'VENDOR_ADDRESS_STATE_CODE',
+    'entity_state_name': 'VENDOR_ADDRESS_STATE_NAME',
+    'entity_address_zip_code': 'VENDOR_ADDRESS_ZIP_CODE',
+
 }
 
 boolean_map = {
@@ -147,11 +160,3 @@ class Contracts():
                 break
 
         return data
-
-
-
-
-
-
-
-
